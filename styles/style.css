@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope-font {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+  }
+  
+
+  /* shared style */
+ 
+  .paragraph{
+    font-size: 0.9rem;
+    line-height: 22px;
+    color: #777777 ;  }
+    .btn{
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        padding: 20px 30px;
+        border: none;
+        border-radius: 10px;
+        background:linear-gradient(
+            #FF0000,
+            #FF8938
+         );
+
+    }
+
+  /* banner section */
+
+  .container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  .banner-heading{
+    font-size: 3.8rem;
+    font-weight: bolder;
+    line-height: 80px;
+  }
+  .banner-img{
+    max-width: 600px;
+    max-height: 440px;
+  }
+.banner-note{
+    background-color: #ffffff;
+    max-width: 28%;
+    padding: 10px 23px ;
+    align-items: center;
+ border: 1px solid rgba(255, 255, 255, 0);
+ border-radius: 10px;
+margin-top: -104px;
+margin-left: 100px;
+position: absolute;
+}
+.star{
+    max-width: 18px;
+}
+
+/* our feature product */
+.feature-container{
+  text-align: center;
+}
+.feature-heading{
+  font-size: 2.4rem;
+}
+.container{
+  text-align: center;
+  max-width: 1200px;
+}
+.container3{
+  max-width: 220px;
+  max-height: 350px;
+  border: 1px none;
+  border-radius: 10px;
+  background:linear-gradient(
+   rgba(244, 244, 244, 1) ,
+    rgba(244, 244, 244, 0)
+  );
+  padding-top: 20px;
+  margin-top: 60px;
+}
+/* bubble-tea-img */
+.tea-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:
+1fr 1fr;
+gap: 20px;
+}
+.top-left{
+  background:linear-gradient(
+   rgba(255, 0, 119, 0.226),
+   rgba(255, 136, 56, 0.192)
+  );
+  max-width: 200px;
+  max-height: 115px;
+  border-radius: 15px;
+}
+.top-right-img{
+  max-width: 210px;
+  max-height: 315px;
+  border: 1px ;
+  border-radius: 10px;
+  background:rgba(230, 166, 35, 0.1);
+  text-align: center;
+   
+}
+.bottom-left-img{
+  max-width: 210px;
+  max-height: 315px;
+  border: 1px ;
+  border-radius: 10px;
+  background:rgba(87, 118, 57, 0.1);
+  text-align: center;
+  margin-top: -150px;
+}
+.bottom-right{
+  background:linear-gradient(rgba(217, 217, 217, 1),
+   rgba(255, 255, 255, 0))
+;
+  max-width: 200px;
+  max-height: 115px;
+  border-radius: 15px;
+}
+.image-correction{
+  max-width: 1044px;
+ 
+}
+.all-flex{
+  display: flex;
+  text-wrap: wrap;
+  justify-content: space-around;
+  /* gap: 100px; */
+  margin: 100px auto;
+  max-width: 1200px;
+}
+/* meet our super clint */
+.btn1{
+  font-size: 1rem;
+  font-weight: bold;
+  color: 
+    #b93f3f85
+    ;
+    background-color: white;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+  
+}
+.container5{
+  background: linear-gradient(
+    #FF0000,
+    #FF8938
+  );
+  width: 1100px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+.container7{
+margin-top: 180px;
+  background-color: white;
+  width: 400px;
+  height: 253px;
+padding-left: 60px;
+border-radius: 10px;
+
+}
+.img1{
+  margin-left: -90px;
+  margin-top: -20px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+.img2{ 
+  margin-left: 250px;
+}
+.container6{
+  color: white;
+  margin-top: 160px;
+  background-image: url(/images/bg_cup.png);
+}
+      .client{
+        margin-left: 400px;
+      }
+
+      /* new event */
+      .container9{
+        text-align: center;
+      }
+      .container15{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        max-width: 1200px;
+        margin-left: 400px;
+      }
+      .container13{
+        display: flex;
+        justify-content: space-around;
+  
+      }
+      li{
+        list-style: none;
+        font-size: 0.8rem;
+        line-height: 30px;
+      }
+      .footer-bg{
+        background-color: rgba(255, 0, 0, 0.1);
+        
+      }
+      .span{
+        text-align: end;
+        margin-right: 150px;
+        margin-bottom: 80px;
+
+      }
+      .btn3{
+           font-size: 1rem;
+           font-weight: bold;
+           color: #ffffff;
+         background-color: #ff7300;
+         padding: 20px 25px;
+         border: none;
+         border-radius: 10px;
+          
+      }
